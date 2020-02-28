@@ -1,0 +1,48 @@
+<style>
+  #popBox,
+  #popBoxMsg {
+    margin: 0;
+    padding: 0;
+  }
+  #popBox {
+    position: fixed;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 50px;
+    margin: 0 auto;
+    left: 20px;
+    top: 20px;
+    z-index: 9999;
+    margin-left: -150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    visibility: hidden;
+  }
+  #popBoxMsg {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  #popBoxBtnY,
+  #popBoxBtnN{
+      margin: 10px 10px 0;
+  }
+
+  #popBoxInput{
+      display: block;
+      width: 100%;
+      padding-left: 20px;
+  }
+</style>
+
+<div id="popBox">
+  <p id="popBoxMsg">你好</p>
+  <input type="text" id="popBoxInput">
+  <button id="popBoxBtnY">确定</button>
+  <button id="popBoxBtnN">取消</button>
+</div>
